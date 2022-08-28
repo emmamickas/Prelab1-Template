@@ -17,4 +17,4 @@ gcc -m32 t.c ts.s
 # your main function via argc and argv. 
 # in general each bash parameter can be accessed with $1 and $2, so "./mk one 2two" would let $1=one and $2=2two
 # $@ expands to pass all arguments.
-./a.out $@
+./a.out one two three > myout
